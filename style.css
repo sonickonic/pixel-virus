@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Chettan 2", cursive;
+  text-align: center;
+}
+
+.flask-container {
+  margin: 0 auto;
+  margin: 15% auto 100px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 850px;
+}
+
+.flask {
+  position: relative;
+  width: 110px;
+  justify-content: space-around;
+  /* border: yellow solid 2px; */
+}
+
+.flask--active {
+  transform: scale(1.08);
+  transition: ease-in-out;
+}
+
+.virus-container {
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.virus {
+  margin-bottom: 15px;
+  width: 72px;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0 35px;
+  font: 1em "Baloo Chettan 2";
+  font-weight: 500;
+  text-transform: uppercase;
+
+  padding: 14px 34px;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+
+  margin-bottom: 5%;
+}
+
+.btn:hover {
+  color: #d9ba61;
+  border: 0.5px solid #d9ba61;
+}
